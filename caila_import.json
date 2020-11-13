@@ -1,0 +1,65 @@
+{
+  "project" : {
+    "id" : "pay-408-TiT",
+    "name" : "pay-408-TiT",
+    "folder" : "/"
+  },
+  "settings" : {
+    "language" : "ru",
+    "spellingCorrection" : false,
+    "classificationAlgorithm" : "sts",
+    "timezone" : "UTC",
+    "shared" : false
+  },
+  "intents" : [ {
+    "id" : 7557,
+    "path" : "/пока",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "пока"
+    } ]
+  }, {
+    "id" : 7558,
+    "path" : "/привет",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "привет"
+    } ]
+  }, {
+    "id" : 10054,
+    "path" : "/заказ",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "хочу заказать"
+    } ],
+    "patterns" : [ ],
+    "slots" : [ {
+      "name" : "pizza",
+      "entity" : "pizza_type",
+      "required" : true,
+      "prompts" : [ "Какую пиццу вы хотите заказать?" ]
+    } ]
+  } ],
+  "entities" : [ {
+    "entity" : {
+      "id" : 8510,
+      "name" : "pizza_type",
+      "enabled" : true,
+      "shared" : false,
+      "type" : "annotation",
+      "priority" : 1,
+      "noSpelling" : false,
+      "noMorph" : false
+    },
+    "records" : [ {
+      "id" : 123734,
+      "type" : "synonyms",
+      "rule" : [ "Четыре сыра" ],
+      "value" : ""
+    } ]
+  } ],
+  "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ]
+}

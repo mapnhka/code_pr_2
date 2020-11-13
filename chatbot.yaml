@@ -1,0 +1,29 @@
+name: zb-cailapub
+
+entryPoint:
+  - main.sc
+
+botEngine: v2
+language: ru
+sts:
+  noMatchThreshold: 0.2
+caila:
+  noMatchThreshold: 0.2
+
+tests:
+  include:
+    - test.xml
+
+scriptsPreLoad:
+  global:
+   - /jslib/moment.min.js
+   - /jslib/underscore.js
+   - /jsapi/common.js
+   - /jsapi/http.js
+  local:
+   - /jsapi/payment.js
+   - /jsapi/mail.js
+   - /jsapi/reactions.js
+   
+injector:
+  pay_api_key: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjlkOWQyN2VlLTQ2MjktNGJkNi1iYjBmLWUwYzJlZGMwZDBlZSJ9.eyJzdWIiOiIxMDUiLCJleHAiOjE4MzAyOTc2MDAsImlhdCI6MTUxNjIzOTAyMiwiaXNzIjoicnUuc2JlcmRldmljZXMuaW5hcHAiLCJhdWQiOiJzbWFydG1hcmtldCIsInByb2R1Y3QiOiJpbmFwcCIsImp0aSI6IjI3NDkyRDYyLUU0QTUtMTE0Qi0yQjg5LTI3NDRBQkVQTUEwNiJ9.W3zaKclkV_2P-OLFEpBUn10e5DXNcvrpj-aAkcsK0GWDGnQO3KyoMAkovF8YoaIugQ84_EqOxXArCv4a7bhHNMnh-qpnEeold09T4XdZhR8qCaGaNzIsHfSbp7oCtNSlkv198jw4_YcDhncjgK_zjc4hHjhvhamHfpHpSH3fN-j8e_AEscghZhPtCbsBeyFr-pET5YJbuMYgJOt8ptPTBMd0qsRoXlE2HKvzHGcLt5LQgH5nAyUXZFcYInRBs9yadOOfJVKOFC6g2oj2EzM9JENKnmAgiPEPYiHx-KPpFPMA8f1HG5YELQySKl-VR2iNwO_4SFp4YgQ5R-EPQVf_ww'
