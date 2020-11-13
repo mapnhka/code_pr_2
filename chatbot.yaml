@@ -6,7 +6,7 @@ entryPoint:
 botEngine: v2
 language: ru
 sts:
-  noMatchThreshold: 0.3
+  noMatchThreshold: 0.2
 caila:
   noMatchThreshold: 0.2
 
