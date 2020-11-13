@@ -6,9 +6,9 @@ entryPoint:
 botEngine: v2
 language: ru
 sts:
-  noMatchThreshold: 0.2
+  noMatchThreshold: 0.3
 caila:
-  noMatchThreshold: 0.2
+  noMatchThreshold: 0.4
 
 tests:
   include:
