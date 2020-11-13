@@ -1,8 +1,8 @@
 {
   "project" : {
-    "id" : "pay-408-TiT",
-    "name" : "pay-408-TiT",
-    "folder" : "/"
+    "id" : "repo2-263-MpW",
+    "name" : "repo2-263-MpW",
+    "folder" : "/jaicp"
   },
   "settings" : {
     "language" : "ru",
@@ -12,23 +12,7 @@
     "shared" : false
   },
   "intents" : [ {
-    "id" : 7557,
-    "path" : "/пока",
-    "enabled" : true,
-    "shared" : false,
-    "phrases" : [ {
-      "text" : "пока"
-    } ]
-  }, {
-    "id" : 7558,
-    "path" : "/привет",
-    "enabled" : true,
-    "shared" : false,
-    "phrases" : [ {
-      "text" : "привет"
-    } ]
-  }, {
-    "id" : 10054,
+    "id" : 3008,
     "path" : "/заказ",
     "enabled" : true,
     "shared" : false,
@@ -40,12 +24,29 @@
       "name" : "pizza",
       "entity" : "pizza_type",
       "required" : true,
-      "prompts" : [ "Какую пиццу вы хотите заказать?" ]
+      "prompts" : [ "Какую пиццу вы хотите заказать?" ],
+      "array" : false
+    } ]
+  }, {
+    "id" : 3006,
+    "path" : "/пока",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "пока"
+    } ]
+  }, {
+    "id" : 3007,
+    "path" : "/привет",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "привет"
     } ]
   } ],
   "entities" : [ {
     "entity" : {
-      "id" : 8510,
+      "id" : 2503,
       "name" : "pizza_type",
       "enabled" : true,
       "shared" : false,
@@ -55,7 +56,7 @@
       "noMorph" : false
     },
     "records" : [ {
-      "id" : 123734,
+      "id" : 11509,
       "type" : "synonyms",
       "rule" : [ "Четыре сыра" ],
       "value" : ""
