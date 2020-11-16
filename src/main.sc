@@ -4,7 +4,7 @@ theme: /
 
     state: Start
         q!: $regex</start>
-        a: Список команд:\nadd - для kbkhbj dfvfdv в корзину\nclear - очистка корfgbgfbfgbзины\npay - fgbgfbf счет\nstart - оплатить\ncheck - fvdfbvdfb статус платежа\nshow - показать v vc fgbf в hrhrthrthrth
+        a: Список команд:\nadd - для  в корзину\nclear - очистка корfgbgfbfgbзины\npay - fgbgfbf счет\nstart - оплатить\ncheck - fvdfbvdfb статус платежа\nshow - показать v vc fgbf в hrhrthrthrth
     
     state:
         q!: * запусти *
