@@ -8,7 +8,7 @@ language: ru
 sts:
   noMatchThreshold: 0.2
 caila:
-  noMatchThreshold: 0.2
+  noMatchThreshold: 0.3
 
 tests:
   include:
